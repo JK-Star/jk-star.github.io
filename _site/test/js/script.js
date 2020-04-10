@@ -1,13 +1,19 @@
+<<<<<<< HEAD
 var radius = 360; //´ÊÔÆÇòÌåÃæ»ı´óĞ¡
 var dtr = Math.PI/180; //Êó±ê»¬¹ıÇòÌå×ª¶¯ËÙ¶È
 var d=350;  //ÇòÌåÁ¢Ìå¸Ğ³Ì¶È
+=======
+var radius = 360; //è¯äº‘çƒä½“é¢ç§¯å¤§å°
+var dtr = Math.PI/180; //é¼ æ ‡æ»‘è¿‡çƒä½“è½¬åŠ¨é€Ÿåº¦
+var d=350;  //çƒä½“ç«‹ä½“æ„Ÿç¨‹åº¦
+>>>>>>> e52b64a35b19d08ec545304a04207eade5d48fdd
 
 var mcList = [];
-var active = false; //Ä¬ÈÏ¼ÓÔØÊÇ·ñ¿ªÆô×ª¶¯
-var lasta = 0.8; //ÉÏÏÂ×ª¶¯
-var lastb = 0; //×óÓÒ×ª¶¯
+var active = false; //é»˜è®¤åŠ è½½æ˜¯å¦å¼€å¯è½¬åŠ¨
+var lasta = 0.8; //ä¸Šä¸‹è½¬åŠ¨
+var lastb = 0; //å·¦å³è½¬åŠ¨
 var distr = true;
-var tspeed=8; //ÇòÌå×ª¶¯ËÙ¶È
+var tspeed=8; //çƒä½“è½¬åŠ¨é€Ÿåº¦
 var size=200;
 
 var mouseX=0;
@@ -84,7 +90,7 @@ function update()
 		b = lastb * 0.98;
 	}
 
-	//Ä¬ÈÏ×ª¶¯ÊÇºóÊÇ·ñĞèÒªÍ£ÏÂ
+	//é»˜è®¤è½¬åŠ¨æ˜¯åæ˜¯å¦éœ€è¦åœä¸‹
 	// lasta=a;
 	// lastb=b;
 	
@@ -172,7 +178,7 @@ function positionAll()
 	var aTmp=[];
 	var oFragment=document.createDocumentFragment();
 	
-	//Ëæ»úÅÅĞò
+	//éšæœºæ’åº
 	for(i=0;i<aA.length;i++)
 	{
 		aTmp.push(aA[i]);
@@ -204,7 +210,7 @@ function positionAll()
 			phi = Math.random()*(Math.PI);
 			theta = Math.random()*(2*Math.PI);
 		}
-		//×ø±ê±ä»»
+		//åæ ‡å˜æ¢
 		mcList[i-1].cx = radius * Math.cos(theta)*Math.sin(phi);
 		mcList[i-1].cy = radius * Math.sin(theta)*Math.sin(phi);
 		mcList[i-1].cz = radius * Math.cos(phi);
