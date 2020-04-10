@@ -7,7 +7,7 @@
 
 # Site settings
 title: JK-Star的技术专栏
-brief-intro: Android and Python Coder
+brief-intro: An innocent code boy
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://643435675.github.io" # the base hostname & protocol for your site
 
@@ -51,6 +51,7 @@ kramdown:
 # url
 category_dir: category/
 tag_dir: tag/
+test_dir: test/
 
 # excerpt
 excerpt_separator: "\n\n\n\n"
