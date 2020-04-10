@@ -1,4 +1,4 @@
-var radius = 180; //词云球体面积大小
+var radius = 360; //词云球体面积大小
 var dtr = Math.PI/180; //鼠标滑过球体转动速度
 var d=350;  //球体立体感程度
 
