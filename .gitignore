@@ -1,6 +1,7 @@
-#.sass-cache
-#.jekyll-metadata
+.sass-cache
+.jekyll-metadata
 .vscode
 .idea
 .DS_Store
-#.jekyll-cache
+._site
+.jekyll-cache
